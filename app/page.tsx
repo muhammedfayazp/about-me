@@ -2,13 +2,13 @@
 import { useState, useEffect, useRef } from "react";
 
 const skills = [
+  { icon: "🔗", title: "Backend & APIs", tags: ["PHP", "Laravel", "Node.js", "Express.js", "RESTful APIs", "Microservices", "Livewire 3"] },
   { icon: "⚛️", title: "Frontend", tags: ["React.js", "Next.js", "Vue.js", "Nuxt.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"] },
-  { icon: "⚡", title: "JavaScript", tags: ["ES6+", "TypeScript", "Async/Await", "Promises", "Functional Programming"] },
+  { icon: "🗄️", title: "Databases", tags: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "SQLite", "Meilisearch"] },
+  { icon: "☁️", title: "Cloud & DevOps", tags: ["AWS EC2", "S3", "RDS", "Vercel", "DigitalOcean", "CI/CD", "Git", "VPS"] },
+  { icon: "⚡", title: "Languages", tags: ["PHP", "JavaScript (ES6+)", "TypeScript", "SQL", "Async/Await"] },
   { icon: "🔄", title: "State Management", tags: ["Redux", "Context API", "Pinia", "TanStack Query"] },
-  { icon: "🛠️", title: "Build Tools", tags: ["Webpack", "Babel", "Vite", "npm / yarn", "CI/CD Pipelines"] },
-  { icon: "🔗", title: "APIs & Backend", tags: ["RESTful APIs", "Node.js", "Express.js", "Laravel", "PHP", "Microservices"] },
-  { icon: "☁️", title: "Cloud & DevOps", tags: ["AWS EC2", "S3", "RDS", "Vercel", "DigitalOcean", "Git"] },
-  { icon: "🗄️", title: "Databases", tags: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Meilisearch"] },
+  { icon: "🏗️", title: "Architecture", tags: ["OOP", "MVC", "Microservices", "Distributed Systems", "Cloud-Native", "Data Structures"] },
   { icon: "🛍️", title: "CMS & E-Commerce", tags: ["WordPress", "WooCommerce", "Shopify", "FilamentPHP"] },
 ];
 
@@ -19,13 +19,13 @@ const experience = [
     company: "Life Pharmacy",
     location: "Dubai, UAE",
     bullets: [
-      "Built React.js analytics dashboards monitoring appointments, customer engagement, and operational metrics in real time.",
-      "Developed the customer-facing storefront in Nuxt.js (Nuxt 3 / Vue 3) with fully responsive design across all devices.",
-      "Implemented complex state management using Pinia and API performance optimisation with TanStack Query.",
-      "Integrated Meilisearch for fast, typo-tolerant product search, improving search response by ~60%.",
-      "Designed and built a custom payment gateway integrating multiple UAE banks via REST APIs with secure tokenisation.",
-      "Applied frontend optimisation techniques (code splitting, lazy loading, caching) achieving up to 40% performance improvement.",
-      "Collaborated with designers, backend engineers, and QA teams in an Agile/Scrum workflow.",
+      "Designed and developed large-scale e-commerce and medical booking platform end-to-end — backend APIs, database architecture, and responsive frontend using Nuxt.js 3 / Vue 3.",
+      "Built and optimised RESTful APIs and backend logic using Laravel for high-traffic production systems serving thousands of daily users.",
+      "Designed and implemented a custom in-house payment gateway integrating multiple UAE banks with secure tokenisation and transaction management.",
+      "Integrated Meilisearch for fast, typo-tolerant product search; applied code splitting, lazy loading, and caching achieving up to 40% performance improvement.",
+      "Managed AWS cloud infrastructure (EC2, S3, RDS) including server configuration, CI/CD pipelines, and database management.",
+      "Built React.js analytics dashboards for real-time monitoring of appointments, customer engagement, and operational metrics.",
+      "Collaborated with designers, backend engineers, and QA teams in an Agile/Scrum workflow; conducted code reviews.",
     ],
   },
   {
@@ -34,9 +34,9 @@ const experience = [
     company: "Upbeat Digital",
     location: "Abu Dhabi, UAE",
     bullets: [
-      "Led frontend development of Riadaland — an online sports booking platform — using Vue.js & Laravel.",
-      "Designed responsive UI components and booking interfaces; implemented real-time data sync via REST APIs.",
-      "Managed team delivery, code reviews, and maintained high coding standards and UX best practices.",
+      "Led full-stack development of Riadaland — an online sports booking platform — using Vue.js on the frontend and Laravel on the backend.",
+      "Designed and built REST APIs, booking system backend logic, and real-time data synchronisation between services.",
+      "Managed team delivery, code reviews, and maintained high coding standards across frontend and backend codebases.",
       "Deployed and maintained services on AWS (EC2, RDS, S3) with CI/CD pipelines.",
     ],
   },
@@ -46,10 +46,10 @@ const experience = [
     company: "Growide Digital",
     location: "Abu Dhabi, UAE",
     bullets: [
-      "Developed and maintained e-commerce platforms using React, WordPress, Shopify, and Laravel.",
-      "Built responsive UI — product pages, sliders, checkout flows — optimised for performance and conversion.",
-      "Improved page performance through Webpack optimisation, code splitting, lazy loading, and asset minification.",
-      "Deployed applications on DigitalOcean and handled server configuration and post-launch support.",
+      "Built and maintained full-stack e-commerce platforms using Laravel (backend), React/Vue.js (frontend), WordPress, and Shopify.",
+      "Developed backend APIs, database schemas, and business logic alongside responsive frontend UI for multiple client projects.",
+      "Deployed and managed applications on DigitalOcean — server setup, environment configuration, performance optimisation, and post-launch support.",
+      "Implemented security best practices across client applications including input validation, authentication controls, and secure API communication.",
     ],
   },
   {
@@ -68,8 +68,8 @@ const experience = [
     company: "Scientia Innovation",
     location: "Kerala, India",
     bullets: [
-      "Developed and maintained ParentEye.in, an e-learning CRM platform used by 100+ schools.",
-      "Built dashboards, reports, and academic modules; improved frontend usability and application performance.",
+      "Developed and maintained ParentEye.in end-to-end — an e-learning CRM platform used by 100+ schools with dashboards, reports, and academic modules.",
+      "Built backend logic, database models, and frontend UI; improved application performance and system stability.",
     ],
   },
 ];
@@ -192,7 +192,7 @@ export default function Home() {
             <span className="line2">Fayaz</span>
           </h1>
           <p className="hero-role">
-            <strong>Senior Full Stack Developer</strong> · PHP · JavaScript · React · Laravel · Node.js
+            <strong>Senior Full Stack Developer</strong> · Backend &amp; JavaScript Expert
           </p>
           <p className="hero-desc">
             Building full-stack web applications end-to-end for 9+ years. Expert in PHP (Laravel),
@@ -255,7 +255,7 @@ export default function Home() {
         <div className="container">
           <div className="section-eyebrow reveal">02 · Skills</div>
           <h2 className="section-title reveal">Technical Expertise</h2>
-          <p className="section-sub reveal">A broad and deep toolkit built across 9+ years of professional development.</p>
+          <p className="section-sub reveal">Full-stack expertise across backend, frontend, cloud, and databases — built over 9+ years of professional delivery.</p>
           <div className="skills-grid">
             {skills.map((s, i) => (
               <div key={s.title} className={`skill-card reveal reveal-delay-${(i % 3) + 1}`}>
