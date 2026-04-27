@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 :root {
   --bg: #050508;
@@ -27,7 +27,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--white);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
   overflow-x: hidden;
@@ -58,7 +58,7 @@ nav.scrolled {
   display: flex; align-items: center; justify-content: space-between;
 }
 .nav-logo {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-weight: 800; font-size: 1.3rem;
   background: linear-gradient(135deg, var(--gold), var(--gold3));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
@@ -121,7 +121,7 @@ nav.scrolled {
   border-radius: 100px;
   padding: 0.45rem 1.1rem;
   margin-bottom: 2rem;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem; color: var(--gold); letter-spacing: 0.1em;
   opacity: 0; animation: fadeUp 0.7s 0.2s forwards;
 }
@@ -135,7 +135,7 @@ nav.scrolled {
   50% { opacity: 0.6; box-shadow: 0 0 3px var(--green); }
 }
 .hero-name {
-  font-family: 'Syne', sans-serif; font-weight: 800;
+  font-family: 'Rajdhani', sans-serif; font-weight: 800;
   font-size: clamp(4rem, 10vw, 7.5rem);
   line-height: 0.95; letter-spacing: -0.03em;
   margin-bottom: 1.25rem;
@@ -199,7 +199,7 @@ nav.scrolled {
 }
 .stat:last-child { border-right: none; }
 .stat-num {
-  font-family: 'Syne', sans-serif; font-size: 2.75rem; font-weight: 800;
+  font-family: 'Rajdhani', sans-serif; font-size: 2.75rem; font-weight: 800;
   line-height: 1; color: var(--gold);
 }
 .stat-label { font-size: 0.78rem; color: var(--gray2); margin-top: 0.3rem; letter-spacing: 0.05em; }
@@ -208,13 +208,13 @@ nav.scrolled {
 section { padding: 7rem 0; }
 .section-eyebrow {
   display: flex; align-items: center; gap: 0.75rem;
-  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+  font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem;
   color: var(--gold); letter-spacing: 0.2em; text-transform: uppercase;
   margin-bottom: 1rem;
 }
 .section-eyebrow::before { content: ''; width: 24px; height: 1px; background: var(--gold); }
 .section-title {
-  font-family: 'Syne', sans-serif; font-weight: 700;
+  font-family: 'Rajdhani', sans-serif; font-weight: 700;
   font-size: clamp(2.25rem, 5vw, 3.5rem); line-height: 1.05;
   margin-bottom: 1rem; letter-spacing: -0.02em;
 }
@@ -257,7 +257,7 @@ section { padding: 7rem 0; }
 }
 .glass-card:hover { border-color: rgba(201,168,76,0.2); }
 .card-label {
-  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem;
   color: var(--gold); letter-spacing: 0.2em; text-transform: uppercase;
   margin-bottom: 1.25rem;
 }
@@ -302,14 +302,14 @@ section { padding: 7rem 0; }
   font-size: 1.25rem; margin-bottom: 1.25rem;
 }
 .skill-title {
-  font-family: 'Syne', sans-serif; font-size: 0.9rem; font-weight: 700;
+  font-family: 'Rajdhani', sans-serif; font-size: 0.9rem; font-weight: 700;
   color: var(--white); margin-bottom: 1rem; letter-spacing: 0.03em;
 }
 .tags { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 .tag {
   background: rgba(255,255,255,0.04); border: 1px solid var(--border);
   color: var(--gray); padding: 0.25rem 0.65rem; border-radius: 4px;
-  font-size: 0.72rem; font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem; font-family: 'IBM Plex Mono', monospace;
   transition: all 0.2s; cursor: default;
 }
 .tag:hover { border-color: var(--gold); color: var(--gold); background: var(--gold-glow); }
@@ -324,7 +324,7 @@ section { padding: 7rem 0; }
   border: 1px solid transparent; font-size: 0.875rem;
 }
 .exp-nav-item .nav-company { font-weight: 600; color: var(--gray); transition: color 0.25s; font-size: 0.9rem; }
-.exp-nav-item .nav-period { font-size: 0.72rem; color: var(--gray2); font-family: 'JetBrains Mono', monospace; margin-top: 0.15rem; }
+.exp-nav-item .nav-period { font-size: 0.72rem; color: var(--gray2); font-family: 'IBM Plex Mono', monospace; margin-top: 0.15rem; }
 .exp-nav-item.active { background: var(--gold-glow); border-color: rgba(201,168,76,0.25); }
 .exp-nav-item.active .nav-company { color: var(--gold); }
 .exp-nav-item:hover:not(.active) { background: var(--card); border-color: var(--border); }
@@ -333,11 +333,11 @@ section { padding: 7rem 0; }
 .exp-panel.active { display: block; animation: fadeIn 0.35s ease; }
 @keyframes fadeIn { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
 .exp-header { margin-bottom: 1.75rem; }
-.exp-role { font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--white); margin-bottom: 0.4rem; }
+.exp-role { font-family: 'Rajdhani', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--white); margin-bottom: 0.4rem; }
 .exp-meta { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
 .exp-company-name { color: var(--gold); font-weight: 500; font-size: 0.95rem; }
 .exp-period-badge {
-  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+  font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem;
   background: var(--gold-glow); border: 1px solid rgba(201,168,76,0.25);
   color: var(--gold); padding: 0.2rem 0.65rem; border-radius: 100px;
 }
@@ -371,16 +371,16 @@ section { padding: 7rem 0; }
 .project-card:hover { border-color: rgba(201,168,76,0.35); transform: translateY(-6px); box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
 .project-card:hover::after { opacity: 1; }
 .project-eyebrow {
-  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem;
   color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase;
 }
-.project-name { font-family: 'Syne', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--white); line-height: 1.3; }
+.project-name { font-family: 'Rajdhani', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--white); line-height: 1.3; }
 .project-desc { font-size: 0.875rem; color: var(--gray); line-height: 1.75; flex: 1; }
 .project-stack { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .project-stack span {
   background: rgba(255,255,255,0.04); border: 1px solid var(--border);
   color: var(--gray2); padding: 0.2rem 0.6rem; border-radius: 4px;
-  font-size: 0.68rem; font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem; font-family: 'IBM Plex Mono', monospace;
 }
 
 /* ── CONTACT ─────────────────────────────────────────────────────── */
@@ -405,7 +405,7 @@ section { padding: 7rem 0; }
 .field input, .field textarea {
   background: var(--card); border: 1px solid var(--border);
   color: var(--white); padding: 0.85rem 1rem;
-  border-radius: var(--radius-sm); font-family: 'Outfit', sans-serif;
+  border-radius: var(--radius-sm); font-family: 'IBM Plex Sans', sans-serif;
   font-size: 0.9rem; outline: none; resize: none;
   transition: border-color 0.2s;
 }
@@ -416,7 +416,7 @@ section { padding: 7rem 0; }
   color: #050508; padding: 0.95rem 2rem;
   font-weight: 700; font-size: 0.9rem; border: none;
   border-radius: var(--radius-sm); cursor: pointer;
-  font-family: 'Outfit', sans-serif; letter-spacing: 0.03em;
+  font-family: 'IBM Plex Sans', sans-serif; letter-spacing: 0.03em;
   transition: all 0.25s; align-self: flex-start;
   box-shadow: 0 0 30px rgba(201,168,76,0.2);
 }
@@ -425,7 +425,7 @@ section { padding: 7rem 0; }
 /* ── FOOTER ──────────────────────────────────────────────────────── */
 footer { border-top: 1px solid var(--border); padding: 2rem 0; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-.footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1rem; background: linear-gradient(135deg, var(--gold), var(--gold3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.footer-logo { font-family: 'Rajdhani', sans-serif; font-weight: 800; font-size: 1rem; background: linear-gradient(135deg, var(--gold), var(--gold3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .footer-copy { font-size: 0.78rem; color: var(--gray2); }
 .footer-links { display: flex; gap: 1.5rem; }
 .footer-link { font-size: 0.78rem; color: var(--gray2); text-transform: uppercase; letter-spacing: 0.08em; transition: color 0.2s; }
