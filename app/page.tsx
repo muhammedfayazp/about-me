@@ -192,12 +192,12 @@ export default function Home() {
             <span className="line2">Fayaz</span>
           </h1>
           <p className="hero-role">
-            <strong>Senior Frontend Developer</strong> · React.js &amp; Modern JavaScript Expert
+            <strong>Senior Full Stack Developer</strong> · PHP · JavaScript · React · Laravel · Node.js
           </p>
           <p className="hero-desc">
-            Building high-performance web applications for 9+ years. Specialised in React.js,
-            Next.js, and Vue.js — delivering scalable e-commerce platforms, booking systems,
-            and analytics dashboards across the UAE.
+            Building full-stack web applications end-to-end for 9+ years. Expert in PHP (Laravel),
+            Node.js, React.js, and Vue.js — delivering scalable e-commerce platforms, RESTful APIs,
+            booking systems, and custom payment gateways across the UAE.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn-gold">Get in Touch →</a>
@@ -219,9 +219,9 @@ export default function Home() {
           <h2 className="section-title reveal">Who I Am</h2>
           <div className="about-grid">
             <div className="about-text reveal">
-              <p>I&apos;m a Senior Frontend Developer based in Dubai with 9+ years of experience turning complex requirements into fast, beautiful, and reliable web applications.</p>
-              <p>My core expertise is React.js and the modern JavaScript ecosystem — from architecting Nuxt.js and Next.js applications with robust state management (Redux, Pinia, TanStack Query), to optimising Webpack builds and integrating payment gateways for production e-commerce platforms serving thousands of daily users.</p>
-              <p>I&apos;ve led teams, mentored developers, and shipped products across the UAE and India. I bring both technical depth and an eye for UX — I don&apos;t just build it, I build it right.</p>
+              <p>I&apos;m a Senior Full Stack Developer based in Dubai with 9+ years of experience building scalable web applications end-to-end — from backend APIs and databases to polished, high-performance frontends.</p>
+              <p>My expertise spans PHP (Laravel), Node.js, and modern JavaScript on the backend, paired with React.js, Next.js, and Vue.js/Nuxt.js on the frontend. I&apos;ve architected RESTful APIs, microservices, custom payment gateways, and e-commerce platforms serving thousands of daily users across the UAE.</p>
+              <p>I&apos;ve led teams, mentored developers, and shipped full-stack products across the UAE and India. I own the full delivery — database schema to deployment — and I build things right.</p>
               <div className="perks">
                 <div className="perk reveal reveal-delay-1"><div className="perk-icon">🎓</div><div className="perk-text"><strong>B.Tech Computer Science & Engineering</strong>Kannur University, India · 2011–2015</div></div>
                 <div className="perk reveal reveal-delay-2"><div className="perk-icon">🚗</div><div className="perk-text"><strong>UAE Light Vehicle Driving License</strong>Valid driving license holder</div></div>

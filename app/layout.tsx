@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Muhammed Fayaz — Senior Frontend Developer",
+  title: "Muhammed Fayaz — Senior Full Stack Developer",
   description:
-    "Senior Frontend Developer with 9+ years of experience in React.js, Next.js, Vue.js, and modern JavaScript. Based in Dubai, UAE. Available immediately.",
-  keywords: ["React developer Dubai", "Frontend developer UAE", "Next.js developer", "Vue.js developer", "Full stack developer Dubai"],
+    "Senior Full Stack Developer with 9+ years of experience in React.js, Next.js, Vue.js, Laravel, Node.js and modern JavaScript. Based in Dubai, UAE. Available immediately.",
+  keywords: ["Full stack developer Dubai", "React developer UAE", "Laravel developer Dubai", "Node.js developer UAE", "Vue.js developer"],
   openGraph: {
-    title: "Muhammed Fayaz — Senior Frontend Developer",
-    description: "9+ years building high-performance web applications. React.js, Next.js, Vue.js expert based in Dubai.",
+    title: "Muhammed Fayaz — Senior Full Stack Developer",
+    description: "9+ years building high-performance web applications. PHP, Laravel, React.js, Next.js, Vue.js expert based in Dubai.",
     type: "website",
   },
 };
